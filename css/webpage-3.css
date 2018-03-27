@@ -1,0 +1,29 @@
+.profilePictureSimple{
+  height: 280px;
+  width: 500px;
+  background-image: url(../image/bg4.jpg);
+  margin-top: 200px;
+  margin-left: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.profilePictureSimple:hover{
+  filter: blur(2px);
+}
+
+.nameWithOutBlur{
+  margin-left: 35px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Cormorant Garamond', serif;
+  padding-top: 188px;
+}
+
+.name{
+  margin-left: 10px;
+}
+
+.email{
+  margin-left: 8px;
+}

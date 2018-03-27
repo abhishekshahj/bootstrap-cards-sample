@@ -1,0 +1,166 @@
+.secondContainer{
+	height: 220px;
+	width: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../image/backimg.jpg");
+  background-size:100%;
+  margin: 386px 280px;
+}
+
+.profilePictureSimple{
+	width:120px;
+	height:120px;
+	border-radius: 150px;
+	margin-left: 20px;
+	margin-top: 20px;
+  opacity: 0.7;
+}
+
+.textContainerForSecond{
+	color: black;
+	margin-left: 70px;
+    margin-top: -103px;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+}
+
+.opacityStyleForName{
+	opacity: 0.5; 
+}
+
+.opacityStyleForEmail{
+  margin-left: -131px;
+}
+
+.glyphiconName{
+  margin-top: 20px;
+	margin-left: 20px;
+}
+
+.glyphiconEmail{
+	margin-left: 34px;
+	margin-top: 20px;
+}
+
+.glyphiconNameDiv{
+	margin-left: 14px;
+    margin-bottom: 81px;
+    margin-top: -106px;
+}
+
+.emailContainerForSecond{
+	color: black;
+    margin-left: 68px;
+    margin-top: -23px;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+}
+
+.activeStatus{
+	margin-top: -23px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+    margin-left: 200px;
+}
+
+.glyphiconActive{
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.opacityStyleForStatus{
+	margin-left: -132px;
+}
+
+.name{
+  margin-left: 70px;
+    margin-top: -22px;
+}
+
+.email{
+  margin-top: -26px;
+    margin-left: 70px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 20px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.checkBoxHide{
+	opacity: 0;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border-radius: 100px;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 30px 30px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonEffect {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+}
+
+.buttonEffect:hover {
+    background-color: #000000;
+    color: white;
+}
